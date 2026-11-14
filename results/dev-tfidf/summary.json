@@ -1,0 +1,8 @@
+{
+  "n": 15,
+  "hit1": "11/15 (73.3%)",
+  "hit3": "14/15 (93.3%)",
+  "context_evidence_rate": "1/15 (6.7%)",
+  "avg_context_chars": 390.7,
+  "median_ms": 0.29
+}

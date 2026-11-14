@@ -1,0 +1,12 @@
+{
+  "split": "dev",
+  "method": "hybrid",
+  "agent_model": "gpt-4o-mini",
+  "n_cases": 17,
+  "answered": 14,
+  "abstained": 3,
+  "errors": 0,
+  "avg_searches": 1.35,
+  "median_ms": 3105.82,
+  "total_cost_usd": 0.005743
+}

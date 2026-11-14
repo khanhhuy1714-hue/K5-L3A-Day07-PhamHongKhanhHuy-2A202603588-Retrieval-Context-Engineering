@@ -1,0 +1,589 @@
+[
+  {
+    "query_id": "q16",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain any information regarding who popularized the term 'computer science' in 1961 or how it was defined.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [],
+    "context": "",
+    "events": [
+      {
+        "event": "search",
+        "query": "computer science term popularized 1961 definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+            "page": 22,
+            "score": 0.222713
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1",
+            "page": 45,
+            "score": 0.179336
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_2",
+            "page": 45,
+            "score": 0.104613
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "query": "who coined the term computer science 1961 definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+            "page": 22,
+            "score": 0.294384
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1",
+            "page": 45,
+            "score": 0.176795
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1",
+            "page": 36,
+            "score": 0.123924
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "query": "history of computer science term definition 1961",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1",
+            "page": 45,
+            "score": 0.208391
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+            "page": 22,
+            "score": 0.179244
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_2",
+            "page": 45,
+            "score": 0.123786
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain any information regarding who popularized the term 'computer science' in 1961 or how it was defined."
+      }
+    ],
+    "elapsed_ms": 4675.13,
+    "cost_usd": 0.000307,
+    "question": "Who popularized the term computer science in 1961 and how did he define it?",
+    "answerable": true
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "answer": "A computer is considered Turing-complete when it can simulate a Turing machine, meaning it can run any algorithm and perform any computation that can be described algorithmically. This concept indicates that the computer has the capability to execute a wide range of tasks, similar to almost all modern computers, which are deemed Turing-complete due to their fundamental computing model. The term is named after Alan Turing, who contributed significantly to theoretical computer science by formalizing the concepts of algorithm and computation with the Turing machine. [Introduction_To_Computer_Science_-_WEB_p24_paragraph_1]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p24_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\nAlmost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or \nComputationally Universal, as opposed to specialized computing devices such as scientific calculators) because \nthey share the same fundamental model for computing results and every computer has the ability to run any \nalgorithm. Alan Mathison Turing was an English mathematician who was highly influential in the development \nof theoretical computer science, which focuses on the mathematical processes behind software, and provided \na formalization of the concepts of algorithm and computation with the Turing machine.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Turing-complete definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+            "page": 24,
+            "score": 0.278685
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3",
+            "page": 24,
+            "score": 0.187416
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+            "page": 43,
+            "score": 0.136109
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1"
+        ],
+        "context_chars": 727
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2840.86,
+    "cost_usd": 0.000216,
+    "question": "What does it mean for a computer to be Turing-complete?",
+    "answerable": true
+  },
+  {
+    "query_id": "q18",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain relevant information regarding the conditions under which a technological fix can cause more problems than it resolves.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p50_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p50_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 50]\nKnowing that innovation is a continuous process that \nrequires rapidly evolving solutions, the team faced challenges while implementing their initial prototype. \nHowever, they are able to adapt their super society solutions using computational thinking and adaptive \ndesign reuse to ensure that they stay ahead of technological advancements. TechWorks is a symbol of the \nsuccessful integration of forward-thinking strategies to create secure and technologically advanced super \nsociety solutions.",
+    "events": [
+      {
+        "event": "search",
+        "query": "technological fix causing more problems than it resolves",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5",
+            "page": 41,
+            "score": 0.373346
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+            "page": 43,
+            "score": 0.18005
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p46_paragraph_0",
+            "page": 46,
+            "score": 0.129776
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "query": "technological solutions unintended consequences",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+            "page": 36,
+            "score": 0.165428
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_1",
+            "page": 50,
+            "score": 0.129656
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+            "page": 43,
+            "score": 0.118378
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p50_paragraph_1"
+        ],
+        "context_chars": 609
+      },
+      {
+        "event": "search",
+        "query": "technological fix problems unintended consequences",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5",
+            "page": 41,
+            "score": 0.252474
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+            "page": 43,
+            "score": 0.186152
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+            "page": 36,
+            "score": 0.143119
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p50_paragraph_1"
+        ],
+        "context_chars": 609
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain relevant information regarding the conditions under which a technological fix can cause more problems than it resolves."
+      }
+    ],
+    "elapsed_ms": 4083.97,
+    "cost_usd": 0.000342,
+    "question": "Under what condition can a technological fix end up causing more problems than it resolves?",
+    "answerable": true
+  },
+  {
+    "query_id": "q19",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain information about the three As of computational thinking or their respective phases.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p51_paragraph_0"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p51_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 51]\n76CompThinking) from the BBC. \nVision \nTo further qualify computational thinking, Al Aho of the Columbia University Computer Science Department \ndescribes computational thinking as “the thought processes involved in formulating problems so their \nsolutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia \nUniversity, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at \nCarnegie Mellon University. She believes that computational thinking details the mental acts needed to \ncompute a solution to a problem either by human actions or machine.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Section 2.1 Computational Thinking three As",
+        "filter": {
+          "section": "2.1 Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+            "page": 50,
+            "score": 0.349536
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2",
+            "page": 52,
+            "score": 0.311915
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_1",
+            "page": 51,
+            "score": 0.282933
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "query": "three As of computational thinking",
+        "filter": {
+          "section": "2.1 Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+            "page": 50,
+            "score": 0.358985
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2",
+            "page": 52,
+            "score": 0.332296
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_0",
+            "page": 51,
+            "score": 0.298658
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p51_paragraph_0"
+        ],
+        "context_chars": 741
+      },
+      {
+        "event": "search",
+        "query": "computational thinking phases",
+        "filter": {
+          "section": "2.1 Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+            "page": 50,
+            "score": 0.30085
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_0",
+            "page": 51,
+            "score": 0.225995
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_1",
+            "page": 51,
+            "score": 0.219948
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p51_paragraph_0"
+        ],
+        "context_chars": 741
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain information about the three As of computational thinking or their respective phases."
+      }
+    ],
+    "elapsed_ms": 5298.39,
+    "cost_usd": 0.000489,
+    "question": "In Section 2.1 Computational Thinking, what are the three As of computational thinking and what does each phase represent?",
+    "answerable": true
+  },
+  {
+    "query_id": "q20",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passage discusses the social implications of agreeing or disagreeing with the social determination of technology but does not define or explain what the social determination of technology is.)",
+    "citations": [],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p38_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\nIs it possible for technology—before it is used by \npeople to solve certain problems—to encode social values? Try to come up with an example that would \nsupport this belief. What about an example that refutes this belief? What are the social implications of \nagreeing or disagreeing with the social determination of technology? \nToday’s neural networks are designed to identify patterns and reproduce existing data. It is widely accepted \nthat many big datasets can encode social preferences and values, particularly when the data is collected from \nusers on the Internet.",
+    "events": [
+      {
+        "event": "search",
+        "query": "social determination of technology",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+            "page": 38,
+            "score": 0.452855
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2",
+            "page": 38,
+            "score": 0.260191
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1",
+            "page": 38,
+            "score": 0.256008
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1"
+        ],
+        "context_chars": 684
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passage discusses the social implications of agreeing or disagreeing with the social determination of technology but does not define or explain what the social determination of technology is."
+      }
+    ],
+    "elapsed_ms": 2185.45,
+    "cost_usd": 0.000159,
+    "question": "What is the social determination of technology?",
+    "answerable": true
+  },
+  {
+    "query_id": "q23",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain any information regarding the specific fine-tuning hyperparameters such as learning rate and batch size used to train DALL-E.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p48_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 48]\nExplore DALL-E (https://openstax.org/r/76DALL-E), a very large neural network created by OpenAI “that \ncreates images from text captions for a wide range of concepts expressible in natural language.” If the \nneural network is learning from English language images and captions on the Internet, what are some of \nthe social risks of this system? How might it encode problematic ideas about marginalized people in \nsociety? \n38     1 • Chapter Review\nAccess for free at openstax.org",
+    "events": [
+      {
+        "event": "search",
+        "query": "DALL-E fine-tuning hyperparameters learning rate batch size Chapter 1",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+            "page": 48,
+            "score": 0.197742
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_0",
+            "page": 19,
+            "score": 0.099703
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_3",
+            "page": 22,
+            "score": 0.099601
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1"
+        ],
+        "context_chars": 592
+      },
+      {
+        "event": "search",
+        "query": "DALL-E training hyperparameters learning rate batch size",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+            "page": 48,
+            "score": 0.193412
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_3",
+            "page": 22,
+            "score": 0.095105
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+            "page": 36,
+            "score": 0.076063
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1"
+        ],
+        "context_chars": 592
+      },
+      {
+        "event": "search",
+        "query": "DALL-E hyperparameters learning rate batch size",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+            "page": 48,
+            "score": 0.193412
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_3",
+            "page": 22,
+            "score": 0.095105
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+            "page": 36,
+            "score": 0.076063
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1"
+        ],
+        "context_chars": 592
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain any information regarding the specific fine-tuning hyperparameters such as learning rate and batch size used to train DALL-E."
+      }
+    ],
+    "elapsed_ms": 4316.44,
+    "cost_usd": 0.000436,
+    "question": "What specific fine-tuning hyperparameters (learning rate and batch size) did OpenAI use to train DALL-E according to Chapter 1?",
+    "answerable": false
+  },
+  {
+    "query_id": "q24",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (No evidence found regarding the five cybersecurity governance frameworks in Chapter 14.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p19_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 19]\nThe last chapter explains how \nto secure software applications and their applications in the context of various cyber threats. It also explains \nhow to make the right decisions about using computers and information in society to navigate social, ethical, \neconomic, and political issues that could result from the misuse of technology. To conclude this textbook, we’ll \nintroduce you to cybersecurity and help you understand why responsible computing is essential to promote \nIntroduction to Computer Science \n1",
+    "events": [
+      {
+        "event": "search",
+        "query": "five cybersecurity governance frameworks Chapter 14",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+            "page": 41,
+            "score": 0.140924
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3",
+            "page": 19,
+            "score": 0.106066
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1",
+            "page": 49,
+            "score": 0.10124
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3"
+        ],
+        "context_chars": 623
+      },
+      {
+        "event": "search",
+        "query": "cybersecurity governance frameworks comparison Chapter 14",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+            "page": 41,
+            "score": 0.140924
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3",
+            "page": 19,
+            "score": 0.106066
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1",
+            "page": 49,
+            "score": 0.10124
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3"
+        ],
+        "context_chars": 623
+      },
+      {
+        "event": "search",
+        "query": "Chapter 14 cybersecurity governance frameworks",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+            "page": 41,
+            "score": 0.140924
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3",
+            "page": 19,
+            "score": 0.106066
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1",
+            "page": 49,
+            "score": 0.10124
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p19_paragraph_3"
+        ],
+        "context_chars": 623
+      },
+      {
+        "event": "abstain",
+        "reason": "No evidence found regarding the five cybersecurity governance frameworks in Chapter 14."
+      }
+    ],
+    "elapsed_ms": 4097.86,
+    "cost_usd": 0.000391,
+    "question": "What are the five cybersecurity governance frameworks compared in Chapter 14 of this textbook?",
+    "answerable": false
+  }
+]

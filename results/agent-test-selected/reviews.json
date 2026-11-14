@@ -1,0 +1,44 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đúng và đủ: George E. Forsythe (1961) cùng định nghĩa nguyên văn từ p22_paragraph_1."
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [true, true, true],
+    "answer_grade": 2,
+    "notes": "Đúng và đủ: cả 3 chunk trang 24 đều trực tiếp hỗ trợ các ý về Turing-complete, bộ nhớ/chương trình và theoretical CS."
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đúng và đủ: p41_paragraph_5 nêu rõ điều kiện xử lý thiếu trách nhiệm/chọn sai công nghệ gây nhiều vấn đề hơn."
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đúng và đủ: p52_paragraph_2 nêu chính xác 3 pha Abstraction, Automation, Analysis."
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [true, true],
+    "answer_grade": 2,
+    "notes": "Đúng và đủ: p38_paragraph_0 định nghĩa social determination of technology và p38_paragraph_2 bổ sung phần AI bias."
+  },
+  {
+    "query_id": "q23",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối chính xác sau 3 lượt search; không suy diễn ngoài tài liệu."
+  },
+  {
+    "query_id": "q24",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối chính xác sau 3 lượt search; Chương 14 không có trong corpus."
+  }
+]

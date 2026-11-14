@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "method": "tfidf",
+  "agent_model": "gpt-4o-mini",
+  "n_cases": 7,
+  "answered": 1,
+  "abstained": 6,
+  "errors": 0,
+  "avg_searches": 2.43,
+  "median_ms": 4097.86,
+  "total_cost_usd": 0.00234
+}

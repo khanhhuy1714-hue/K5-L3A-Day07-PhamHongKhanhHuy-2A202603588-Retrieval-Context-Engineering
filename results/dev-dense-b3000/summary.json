@@ -1,0 +1,13 @@
+{
+  "method": "dense",
+  "n": 15,
+  "top_k": 3,
+  "budget_chars": 3000,
+  "hit1": "7/15 (46.7%)",
+  "hit3": "14/15 (93.3%)",
+  "context_evidence_rate": "14/15 (93.3%)",
+  "avg_context_chars": 2345.9,
+  "median_ms": 259.44,
+  "total_cost_usd": 6e-06,
+  "split": "dev"
+}

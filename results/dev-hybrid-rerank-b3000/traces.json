@@ -1,0 +1,578 @@
+[
+  {
+    "query_id": "q01",
+    "question": "How does the textbook define an algorithm in Section 1.1?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+        "page": 20,
+        "score": 1.0,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_1",
+        "page": 20,
+        "score": 0.5,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_0",
+        "page": 21,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_0"
+    ],
+    "context_chars": 2658,
+    "elapsed_ms": 4803.26,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "question": "In binary search on a sorted array of integers, what happens if the searched number is less than the middle element of the interval?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+        "page": 20,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+        "page": 20,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_3",
+        "page": 20,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_3"
+    ],
+    "context_chars": 2105,
+    "elapsed_ms": 5294.22,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "question": "Who is credited as the world's first computer programmer for her work on the Analytical Engine?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_2",
+        "page": 21,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_1",
+        "page": 21,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+        "page": 22,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1"
+    ],
+    "context_chars": 2665,
+    "elapsed_ms": 4128.48,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "question": "Who invented dynamic programming in 1953, and how does the technique work?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_0",
+        "page": 22,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+        "page": 22,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_3",
+        "page": 21,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_3"
+    ],
+    "context_chars": 2586,
+    "elapsed_ms": 5149.63,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "question": "What are the four hardware components of a computer?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_0",
+        "page": 23,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+        "page": 23,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_1",
+        "page": 43,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p43_paragraph_1"
+    ],
+    "context_chars": 2585,
+    "elapsed_ms": 3211.95,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "question": "Why did the ENIAC use vacuum tubes instead of silicon, and how did they represent binary digits?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3",
+        "page": 23,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_2",
+        "page": 23,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2",
+        "page": 24,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2"
+    ],
+    "context_chars": 2484,
+    "elapsed_ms": 4466.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "question": "What are examples of problems that humans can handle better than computers, and tasks that neither humans nor computers can accurately perform?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_4",
+        "page": 24,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_0",
+        "page": 25,
+        "score": 0.5,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_1",
+        "page": 25,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_1"
+    ],
+    "context_chars": 2711,
+    "elapsed_ms": 2990.39,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "question": "In Section 1.1 Computer Science, how many H-1B visa numbers are available annually in the regular pool and the master's exemption pool?",
+    "method": "hybrid_rrf_rerank",
+    "filter": {
+      "section": "1.1 Computer Science"
+    },
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p28_paragraph_1",
+        "page": 28,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p28_paragraph_2",
+        "page": 28,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p28_paragraph_0",
+        "page": 28,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_0"
+    ],
+    "context_chars": 2380,
+    "elapsed_ms": 2952.91,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "question": "What real-world failure in October 2020 illustrated the row-limit problem of spreadsheet software?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_4",
+        "page": 30,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_3",
+        "page": 30,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p31_paragraph_0",
+        "page": 31,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p31_paragraph_0"
+    ],
+    "context_chars": 2362,
+    "elapsed_ms": 4767.17,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "question": "In Section 1.2 Computer Science across the Disciplines, why is computer science generally considered an applied science rather than a natural science?",
+    "method": "hybrid_rrf_rerank",
+    "filter": {
+      "section": "1.2 Computer Science across the Disciplines"
+    },
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p32_paragraph_2",
+        "page": 32,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_1",
+        "page": 30,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+        "page": 34,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p32_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2"
+    ],
+    "context_chars": 2653,
+    "elapsed_ms": 2907.22,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "question": "What is information science according to Section 1.2?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p33_paragraph_3",
+        "page": 33,
+        "score": 1.0,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p33_paragraph_0",
+        "page": 33,
+        "score": 0.5,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_1",
+        "page": 34,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p33_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p33_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_1"
+    ],
+    "context_chars": 2400,
+    "elapsed_ms": 5329.59,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "question": "What caused the Y2K problem, also known as the millennium bug?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+        "page": 36,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1",
+        "page": 36,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_4",
+        "page": 50,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p50_paragraph_4"
+    ],
+    "context_chars": 2630,
+    "elapsed_ms": 3978.01,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "question": "In Section 1.3 Computer Science and the Future of Society, what is an adversarial attack on a neural network?",
+    "method": "hybrid_rrf_rerank",
+    "filter": {
+      "section": "1.3 Computer Science and the Future of Society"
+    },
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_5",
+        "page": 38,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p39_paragraph_0",
+        "page": 39,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p39_paragraph_1",
+        "page": 39,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p39_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p39_paragraph_1"
+    ],
+    "context_chars": 2585,
+    "elapsed_ms": 4779.94,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "question": "How is digital redlining defined in the textbook?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_3",
+        "page": 41,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_2",
+        "page": 41,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+        "page": 41,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1"
+    ],
+    "context_chars": 2435,
+    "elapsed_ms": 3257.23,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "question": "What is decomposition in computational thinking?",
+    "method": "hybrid_rrf_rerank",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3000,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_3",
+        "page": 51,
+        "score": 1.0,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_3",
+        "page": 50,
+        "score": 0.5,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p52_paragraph_0",
+        "page": 52,
+        "score": 0.333333,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p51_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p50_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p52_paragraph_0"
+    ],
+    "context_chars": 1993,
+    "elapsed_ms": 3940.05,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

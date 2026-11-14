@@ -1,0 +1,13 @@
+{
+  "method": "tfidf",
+  "n": 5,
+  "top_k": 3,
+  "budget_chars": 800,
+  "hit1": "4/5 (80.0%)",
+  "hit3": "5/5 (100.0%)",
+  "context_evidence_rate": "1/5 (20.0%)",
+  "avg_context_chars": 282.2,
+  "median_ms": 0.29,
+  "total_cost_usd": 0.0,
+  "split": "test"
+}

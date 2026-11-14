@@ -1,0 +1,83 @@
+[
+  {
+    "query_id": "q16",
+    "question": "Who popularized the term computer science in 1961 and how did he define it?",
+    "expected_answer": "George E. Forsythe popularized the term in 1961, defining it as the theory of programming, numerical analysis, data processing, and the design of computer systems.",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain any information regarding who popularized the term 'computer science' in 1961 or how it was defined.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q17",
+    "question": "What does it mean for a computer to be Turing-complete?",
+    "expected_answer": "It shares the same fundamental model for computing results and has the ability to run any algorithm, unlike specialized devices such as scientific calculators.",
+    "agent_status": "answered",
+    "agent_answer": "A computer is considered Turing-complete when it can simulate a Turing machine, meaning it can run any algorithm and perform any computation that can be described algorithmically. This concept indicates that the computer has the capability to execute a wide range of tasks, similar to almost all modern computers, which are deemed Turing-complete due to their fundamental computing model. The term is named after Alan Turing, who contributed significantly to theoretical computer science by formalizing the concepts of algorithm and computation with the Turing machine. [Introduction_To_Computer_Science_-_WEB_p24_paragraph_1]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q18",
+    "question": "Under what condition can a technological fix end up causing more problems than it resolves?",
+    "expected_answer": "Unless the process of applying technology to social and political problems is handled responsibly and with care to select the appropriate technology.",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain relevant information regarding the conditions under which a technological fix can cause more problems than it resolves.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q19",
+    "question": "In Section 2.1 Computational Thinking, what are the three As of computational thinking and what does each phase represent?",
+    "expected_answer": "Abstraction (problem formulation), Automation (expressing the solution), and Analysis (solution execution and evaluation).",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain information about the three As of computational thinking or their respective phases.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q20",
+    "question": "What is the social determination of technology?",
+    "expected_answer": "The belief that technologies are inherently neutral and that the people using technology are the ones who ultimately make it good or bad.",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passage discusses the social implications of agreeing or disagreeing with the social determination of technology but does not define or explain what the social determination of technology is.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q23",
+    "question": "What specific fine-tuning hyperparameters (learning rate and batch size) did OpenAI use to train DALL-E according to Chapter 1?",
+    "expected_answer": "Trang 48 chỉ nhắc ngắn gọn tới DALL-E trong phần Labs, không có thông tin về learning rate hay batch size.",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain any information regarding the specific fine-tuning hyperparameters such as learning rate and batch size used to train DALL-E.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "q24",
+    "question": "What are the five cybersecurity governance frameworks compared in Chapter 14 of this textbook?",
+    "expected_answer": "Trang 41 chỉ nhắc tên Chương 14, toàn bộ nội dung Chương 14 không nằm trong corpus (trang 19–52).",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (No evidence found regarding the five cybersecurity governance frameworks in Chapter 14.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  }
+]

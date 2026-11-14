@@ -1,0 +1,178 @@
+[
+  {
+    "query_id": "q16",
+    "question": "Who popularized the term computer science in 1961 and how did he define it?",
+    "method": "tfidf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+        "page": 22,
+        "score": 0.35188,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_1",
+        "page": 30,
+        "score": 0.143201,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p46_paragraph_1",
+        "page": 46,
+        "score": 0.141784,
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.35,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "question": "What does it mean for a computer to be Turing-complete?",
+    "method": "tfidf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+        "page": 24,
+        "score": 0.242483,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p46_paragraph_0",
+        "page": 46,
+        "score": 0.236809,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3",
+        "page": 24,
+        "score": 0.20726,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1"
+    ],
+    "context_chars": 727,
+    "elapsed_ms": 0.27,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "question": "Under what condition can a technological fix end up causing more problems than it resolves?",
+    "method": "tfidf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5",
+        "page": 41,
+        "score": 0.308304,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+        "page": 43,
+        "score": 0.157093,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p46_paragraph_0",
+        "page": 46,
+        "score": 0.155383,
+        "hit": false
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.29,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "question": "In Section 2.1 Computational Thinking, what are the three As of computational thinking and what does each phase represent?",
+    "method": "tfidf",
+    "filter": {
+      "section": "2.1 Computational Thinking"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+        "page": 50,
+        "score": 0.36076,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_1",
+        "page": 51,
+        "score": 0.286129,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2",
+        "page": 52,
+        "score": 0.256657,
+        "hit": true
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.37,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "question": "What is the social determination of technology?",
+    "method": "tfidf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+        "page": 38,
+        "score": 0.424444,
+        "hit": true
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1",
+        "page": 38,
+        "score": 0.345317,
+        "hit": false
+      },
+      {
+        "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2",
+        "page": 38,
+        "score": 0.281689,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1"
+    ],
+    "context_chars": 684,
+    "elapsed_ms": 0.22,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  }
+]

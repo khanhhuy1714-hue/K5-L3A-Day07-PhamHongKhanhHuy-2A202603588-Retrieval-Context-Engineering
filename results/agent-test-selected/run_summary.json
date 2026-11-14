@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "method": "hybrid_rerank",
+  "agent_model": "gpt-4o-mini",
+  "n_cases": 7,
+  "answered": 5,
+  "abstained": 2,
+  "errors": 0,
+  "avg_searches": 1.57,
+  "median_ms": 7532.98,
+  "total_cost_usd": 0.006707
+}

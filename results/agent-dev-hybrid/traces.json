@@ -1,0 +1,1076 @@
+[
+  {
+    "query_id": "q01",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain a specific definition of an algorithm from Section 1.1.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p20_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 20]\nAlgorithms use inputs \nand a finite number of steps to carry out arithmetic operations like addition, subtraction, multiplication, and \ndivision, and produce outputs used in computing. Today’s computers still rely on the same foundations of \nnumbers, calculations, and algorithms, except at the scale of billions of numbers and billions of calculations \nper second. \nTo introduce a concrete example of an algorithm, let us consider binary search algorithm, which is used to \nlocate a number in a sorted array of integers efficiently. The algorithm operates by repeatedly dividing the \nsearch interval in half to perform the search. If the number being searched is less than the integer in the \nmiddle of the interval, the interval is narrowed to the lower half.\n\n[Introduction_To_Computer_Science_-_WEB_p23_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nAnything that can be computed on \n1.1 • Computer Science     13\n\n[Introduction_To_Computer_Science_-_WEB_p20_paragraph_5 | Introduction_To_Computer_Science_-_WEB.pdf | page 20]\nIn the alternative, the interval is narrowed to \nthe upper half. The algorithm repeatedly checks until the number is found or the interval is empty. \n10     1 • Introduction to Computer Science\nAccess for free at openstax.org\n\n[Introduction_To_Computer_Science_-_WEB_p24_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\nAlmost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or \nComputationally Universal, as opposed to specialized computing devices such as scientific calculators) because \nthey share the same fundamental model for computing results and every computer has the ability to run any \nalgorithm. Alan Mathison Turing was an English mathematician who was highly influential in the development \nof theoretical computer science, which focuses on the mathematical processes behind software, and provided \na formalization of the concepts of algorithm and computation with the Turing machine.\n\n[Introduction_To_Computer_Science_-_WEB_p45_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 45]\nWhat term is considered an algorithm that can be run on a computer? \na. artificial intelligence \nb. algorithm \nc. computer program \nd. programming language \n7 . Why is computer science often not considered a science? \na. Computer science does not study natural objects. \nb. Computer science emphasizes the discovery of natural phenomena. \nc. Computer science is spreadsheet-based. \nd. Computer science focuses on computational structures. \n8 . What is the definition of data science? \na. a subfield of computer science that emphasizes the social aspects of computation \nb. an interdisciplinary field studying information technologies and systems as they relate to people, \norganizations, and societies \nc.",
+    "events": [
+      {
+        "event": "search",
+        "query": "algorithm definition Section 1.1",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+            "page": 23,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+            "page": 20,
+            "score": 0.030798
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_6",
+            "page": 38,
+            "score": 0.029412
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_6"
+        ],
+        "context_chars": 708
+      },
+      {
+        "event": "search",
+        "query": "definition of algorithm",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+            "page": 20,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+            "page": 24,
+            "score": 0.030798
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1",
+            "page": 45,
+            "score": 0.030679
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1"
+        ],
+        "context_chars": 2937
+      },
+      {
+        "event": "search",
+        "query": "Section 1.1 algorithm",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+            "page": 23,
+            "score": 0.032266
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+            "page": 20,
+            "score": 0.031281
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_6",
+            "page": 38,
+            "score": 0.03031
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p45_paragraph_1"
+        ],
+        "context_chars": 2937
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain a specific definition of an algorithm from Section 1.1."
+      }
+    ],
+    "elapsed_ms": 5097.17,
+    "cost_usd": 0.000641,
+    "question": "How does the textbook define an algorithm in Section 1.1?",
+    "answerable": true
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "answer": "In binary search on a sorted array of integers, if the searched number is less than the middle element of the interval, the search interval is narrowed to the lower half of the array. [Introduction_To_Computer_Science_-_WEB_p20_paragraph_4]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p27_paragraph_6",
+      "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p20_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 20]\nAlgorithms use inputs \nand a finite number of steps to carry out arithmetic operations like addition, subtraction, multiplication, and \ndivision, and produce outputs used in computing. Today’s computers still rely on the same foundations of \nnumbers, calculations, and algorithms, except at the scale of billions of numbers and billions of calculations \nper second. \nTo introduce a concrete example of an algorithm, let us consider binary search algorithm, which is used to \nlocate a number in a sorted array of integers efficiently. The algorithm operates by repeatedly dividing the \nsearch interval in half to perform the search. If the number being searched is less than the integer in the \nmiddle of the interval, the interval is narrowed to the lower half.\n\n[Introduction_To_Computer_Science_-_WEB_p27_paragraph_6 | Introduction_To_Computer_Science_-_WEB.pdf | page 27]\nFor example, if powerful AI-based \nsearch and optimization tools are only accessible through high-priced subscriptions, specific populations can \nbe limited in benefiting from those tools. \n5 J. Dreyfuss, “Blacks in Silicon Valley,” 2011. https://www.theroot.com/blacks-in-silicon-valley-1790868140 \n6 IBMers, “Mark Dean,” n.d. https://www.ibm.com/history/mark-dean \n7 C. D. McIlwain, (2019). Black software: The Internet and racial justice, from the AfroNet to Black Lives Matter, New York: Oxford \nUniversity Press. \n1.1 • Computer Science     17\n\n[Introduction_To_Computer_Science_-_WEB_p20_paragraph_5 | Introduction_To_Computer_Science_-_WEB.pdf | page 20]\nIn the alternative, the interval is narrowed to \nthe upper half. The algorithm repeatedly checks until the number is found or the interval is empty. \n10     1 • Introduction to Computer Science\nAccess for free at openstax.org",
+    "events": [
+      {
+        "event": "search",
+        "query": "binary search sorted array middle element less than",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+            "page": 20,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p27_paragraph_6",
+            "page": 27,
+            "score": 0.030798
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5",
+            "page": 20,
+            "score": 0.016393
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p27_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p20_paragraph_5"
+        ],
+        "context_chars": 1874
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2589.64,
+    "cost_usd": 0.000226,
+    "question": "In binary search on a sorted array of integers, what happens if the searched number is less than the middle element of the interval?",
+    "answerable": true
+  },
+  {
+    "query_id": "q03",
+    "status": "answered",
+    "answer": "Ada Lovelace is credited as the world's first computer programmer for her work on the Analytical Engine, where she used punched cards to create sequencing instructions that could be read by the machine to perform calculations automatically. [Introduction_To_Computer_Science_-_WEB_p21_paragraph_2]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_2"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p21_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 21]\nLovelace used punched cards to create sequencing instructions that could be read by \nthe Analytical Engine to automatically perform any calculation included in the programming code. With her \nwork on the Analytical Engine, Lovelace became the world’s first computer programmer. \nThe next major development in computing occurred in the late 1800s when Herman Hollerith, an employee of \nthe U.S. Census Office, developed a machine that could punch cards and count them. In 1890, Hollerith’s \ninvention was used to tabulate and prepare statistics for the U.S. census. \nBy the end of the 1800s and leading into the early 1900s, calculators, adding machines, typewriters, and \nrelated machines became more commonplace, setting the stage for the invention of the computer.\n\n[Introduction_To_Computer_Science_-_WEB_p21_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 21]\nLogarithms provided a shortcut for making tedious calculations and became \nthe foundation for multiple analog calculating machines invented during the 1600s. \nScientists continued to explore different ways to speed up or automate calculations. In the 1820s, English \nmathematician Charles Babbage invented the Difference Engine with the goal of preventing human errors in \nmanual calculations. The Difference Engine provided a means to automate the calculations of polynomial \nfunctions and astronomical calculations. \nBabbage followed the Difference Engine with his invention of the Analytical Engine. With assistance from Ada \nLovelace, the Analytical Engine was program-controlled and included features like an integrated memory and \nan arithmetic logic unit.\n\n[Introduction_To_Computer_Science_-_WEB_p23_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nInstead of silicon, the ENIAC used the technology of a vacuum tube, a physical \ndevice like a light bulb that was used as memory in early digital computers. When the “light” in the vacuum \ntube is off, the vacuum tube represents the number 0. When the “light” is on, the vacuum tube represents the \nnumber 1. When thousands of vacuum tubes are combined in a logical way, we suddenly have memory. The \nENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could \nrun not just a single program but rather any program specified by a programmer. The ENIAC was often run \nand programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties, \nit shares a fundamental and surprising similarity with modern computers.",
+    "events": [
+      {
+        "event": "search",
+        "query": "world's first computer programmer Analytical Engine",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_2",
+            "page": 21,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_1",
+            "page": 21,
+            "score": 0.032258
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3",
+            "page": 23,
+            "score": 0.030777
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p21_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p21_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3"
+        ],
+        "context_chars": 2664
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2659.68,
+    "cost_usd": 0.000245,
+    "question": "Who is credited as the world's first computer programmer for her work on the Analytical Engine?",
+    "answerable": true
+  },
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "answer": "Dynamic programming was invented by Richard Bellman in 1953. The technique works by dividing complex problems into more manageable subproblems, solving each subproblem, and storing the results. This approach ultimately leads to a solution for the overall complex problem, thereby optimizing the process of problem-solving in computer programming and mathematics. [Introduction_To_Computer_Science_-_WEB_p22_paragraph_0]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_0"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_3"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p22_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 22]\nRichard Bellman was a significant contributor to this effort. A mathematics professor at Princeton and later at \nStanford in the 1940s, Bellman later went to work for the Rand Corporation, where he studied the theory of \nmultistage decision processes. In 1953, Bellman invented dynamic programming,1  which is a mathematical \noptimization methodology and a technique for computer programming. With dynamic programming, complex \nproblems are divided into more manageable subproblems. Each subproblem is solved, and the results are \nstored, ultimately resulting in a solution to the overall complex problem.2  With this approach, Bellman helped \nrevolutionize computer programming and enable computer science to become a robust field. \nWhat Is Computer Science?\n\n[Introduction_To_Computer_Science_-_WEB_p22_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 22]\nMany computing innovations were initially developed for military research and communication purposes, \nincluding the predecessor to the Internet, the ARPANET (Figure 1.3). \n1 S. Golomb, “Richard E. Bellman 1920–1984,” n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 \n2 Geeks for Geeks, “Dynamic Programming or DP,” 2024. https://www.geeksforgeeks.org/dynamic-programming/ \n3 D. E. Knuth, “George Forsythe and the Development of Computer Science,” Communications of the ACM, vol. 15, no.8, pp. \n722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 \n12     1 • Introduction to Computer Science\nAccess for free at openstax.org\n\n[Introduction_To_Computer_Science_-_WEB_p25_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 25]\nAround the same time that the ARPANET began development in the late 1960s, Wally Feurzeig, Seymour \nPapert, and Cynthia Solomon designed the LOGO programming language to enable new kinds of computer-\nmediated expression and communication. Compared to contemporary programming languages such as \nFORTRAN (FORmula TRANslation System) that emphasized computation toward scientific and engineering \napplications, LOGO is well known for its use of turtle graphics, whereby programs were used to control the \nactions of a digital turtle using instructions such as moving forward some number of units and turning left or \nright some number of degrees.",
+    "events": [
+      {
+        "event": "search",
+        "query": "dynamic programming invention 1953 technique explanation",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_0",
+            "page": 22,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_3",
+            "page": 22,
+            "score": 0.032258
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_3",
+            "page": 25,
+            "score": 0.03009
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p22_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p22_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_3"
+        ],
+        "context_chars": 2388
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2772.7,
+    "cost_usd": 0.000258,
+    "question": "Who invented dynamic programming in 1953, and how does the technique work?",
+    "answerable": true
+  },
+  {
+    "query_id": "q05",
+    "status": "answered",
+    "answer": "The four hardware components of a computer are the processor, memory, network, and storage. The processor acts as the computer's \"brain,\" executing instructions and processing data, while memory stores information temporarily, the network connects devices for information sharing, and storage permanently houses data. [Introduction_To_Computer_Science_-_WEB_p23_paragraph_0]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_0"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p23_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nThe \nmemory is a means of addressing information in a computer by storing it in consistent locations, while the \nnetwork refers to the various technological devices that are connected and share information. The hardware \nand physical components of a computer that permanently house a computer’s data are called storage. \nOne way to understand computers is from a hardware perspective: computers leverage digital electronics and \nthe physics of materials used to develop transistors. For example, many of today’s computers rely on the \nphysical properties of a brittle, crystalline metalloid called silicon, which makes it suitable for representing \ninformation.\n\n[Introduction_To_Computer_Science_-_WEB_p23_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nFigure 1.3 The ARPANET, circa 1974, was an early predecessor to the Internet. It allowed computers at Pentagon-funded research \nfacilities to communicate over phone lines. (credit: modification of \"Arpanet 1974\" by Yngvar/Wikipedia, Public Domain) \nWhat Is a Computer? \nWhile computer science is about much more than just computers, it helps to know a bit more about computers \nbecause they are an important component of computer science. All computers are made of physical, real-\nworld material that we refer to as hardware. Hardware—which has four components, including processor, \nmemory, network, and storage—is the computer component that enables computations. The processor can \nbe regarded as the computer’s “brain,” as it follows instructions from algorithms and processes data.\n\n[Introduction_To_Computer_Science_-_WEB_p43_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 43]\nstorage  hardware and physical components of a computer that permanently house a computer’s data \ntechnological fix  idea that technologies can solve social problems, but now often used to critique blind faith \nin technological solutions to human problems \ntheoretical computer science  mathematical processes behind software \nTuring-complete  fundamental model for computing results and every computer has the ability to run any \nalgorithm \nvacuum tube  physical device that works like a light bulb used as memory in early digital computers \n Summary \n1.1 Computer Science \n• Computer science is pervasive in our daily lives, business and industry, scientific research and \ndevelopment, and social change.",
+    "events": [
+      {
+        "event": "search",
+        "query": "hardware components of a computer",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+            "page": 23,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_0",
+            "page": 23,
+            "score": 0.032258
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+            "page": 43,
+            "score": 0.031746
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3"
+        ],
+        "context_chars": 2493
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2757.8,
+    "cost_usd": 0.00024,
+    "question": "What are the four hardware components of a computer?",
+    "answerable": true
+  },
+  {
+    "query_id": "q06",
+    "status": "answered",
+    "answer": "The ENIAC used vacuum tubes instead of silicon because vacuum tubes were the available technology at the time for building early digital computers. Vacuum tubes functioned as memory devices, where the state of the tube (on or off) represented binary digits: when the vacuum tube's light was off, it represented the number 0, and when it was on, it represented the number 1. This combination of thousands of vacuum tubes allowed for the representation of memory in the ENIAC, which was notable as the first general-purpose computer capable of running any program specified by a programmer [Introduction_To_Computer_Science_-_WEB_p23_paragraph_3].",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p45_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_0"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p23_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nInstead of silicon, the ENIAC used the technology of a vacuum tube, a physical \ndevice like a light bulb that was used as memory in early digital computers. When the “light” in the vacuum \ntube is off, the vacuum tube represents the number 0. When the “light” is on, the vacuum tube represents the \nnumber 1. When thousands of vacuum tubes are combined in a logical way, we suddenly have memory. The \nENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could \nrun not just a single program but rather any program specified by a programmer. The ENIAC was often run \nand programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties, \nit shares a fundamental and surprising similarity with modern computers.\n\n[Introduction_To_Computer_Science_-_WEB_p45_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 45]\nReview Questions \n1 . What is computer science? \n2 . What two subjects does computer science combine the foundations of? \na. math and engineering \nb. math and physics \nc. physics and engineering \nd. math and chemistry \n3 . What can execute an algorithm? \n4 . What enables the ENIAC (one of the first digital computers, invented in 1945) to be able to compute \nanything that can run on modern computers? \na. Both the ENIAC and modern computers have memory. \nb. Both the ENIAC and modern computers share the same hardware. \nc. Both the ENIAC and modern computers are considered Turing-complete. \nd. Both the ENIAC and modern computers run the same software. \n5 . What invention was credited as the first calculator? \na. punch cards \nb. abacus \nc. Difference Machine \nd. ENIAC \n6 .\n\n[Introduction_To_Computer_Science_-_WEB_p24_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\ntoday’s computers can also be computed by the ENIAC given the right circumstances—just trillions of times \nmore slowly. \nFigure 1.4 This image depicts women programmers holding boards used in computers such as the ENIAC, many of which were \ndesigned expressly for ballistics and ordinance guidance research. Today, these room-size computers can be reproduced at a literally \nmicroscopic scale—basically invisible to the human eye. (credit: modification of \"Women holding parts of the first four Army \ncomputers\" by U.S. Army/Wikimedia Commons, Public Domain) \nHow is this possible? The algorithmic principles that determine how results are computed makes up software.",
+    "events": [
+      {
+        "event": "search",
+        "query": "ENIAC vacuum tubes silicon binary digits representation",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3",
+            "page": 23,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p45_paragraph_0",
+            "page": 45,
+            "score": 0.032002
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_0",
+            "page": 24,
+            "score": 0.031281
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p45_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_0"
+        ],
+        "context_chars": 2581
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3460.36,
+    "cost_usd": 0.000308,
+    "question": "Why did the ENIAC use vacuum tubes instead of silicon, and how did they represent binary digits?",
+    "answerable": true
+  },
+  {
+    "query_id": "q07",
+    "status": "answered",
+    "answer": "Humans can handle tasks such as interpreting subtle emotions and making moral judgments in complex social situations better than computers. These tasks require understanding nuances, context, empathy, and experience, which are challenging for computers. On the other hand, neither humans nor computers can accurately predict chaotic systems, such as long-term weather patterns, due to their inherent unpredictability and complexity. Despite advancements in AI, these problems remain beyond our collective reach due to the nature of such systems. [Introduction_To_Computer_Science_-_WEB_p24_paragraph_4] [Introduction_To_Computer_Science_-_WEB_p25_paragraph_0]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_0"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p25_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 25]\nOn the flip side, there are tasks that neither computers nor humans can perform, such as accurately predicting \nchaotic systems like long-term weather patterns. Despite advancements in artificial intelligence (AI), \ncomputer functions that perform tasks, such as visual perception and decision-making processes that usually \nare performed by human intelligence, these problems remain beyond our collective reach due to the inherent \nunpredictability and complexity of certain natural systems. \nTheoretical computer science is often emphasized in undergraduate computer science programs because \nacademic computer science emerged from mathematics, often to the detriment of perspectives that center on \nthe social and technical values embodied by applications of computer technology.\n\n[Introduction_To_Computer_Science_-_WEB_p24_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\nThe answers to these questions suggest the limits of what \nwe can achieve with computers from a technical perspective: Using mathematical ideas, is it possible to use a \ncomputer to compute all problems? If the answer to a problem is yes, how much of a computing resource is \nneeded to get the answer? \nClearly both humans and computers have their strengths and limitations. An example of a problem that \nhumans can solve but computers struggle with is interpreting subtle emotions or making moral judgments in \ncomplex social situations. While computers can process data and recognize patterns, they cannot fully \nunderstand the nuances of human emotions or ethics, which often involve context, empathy, and experience. \n14     1 • Introduction to Computer Science\nAccess for free at openstax.org\n\n[Introduction_To_Computer_Science_-_WEB_p25_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 25]\nThese perspectives, \nhowever, are gradually changing. Just as the design of ARPANET shaped the design of the Internet, computer \nscientists are also learning that the physical aspects of computer hardware determine what can be efficiently \ncomputed. For example, many of today’s artificial intelligence technologies rely on highly specialized computer \nhardware that is fundamentally different at the physical level compared to the general-purpose programmable \nsilicon that has been the traditional focus of computer science. Organizations that develop human-computer \ninteraction (HCI), a subfield of computer science that emphasizes the social aspects of computation, now host \nannual conferences that bring together thousands of researchers in academia and professionals in the \nindustry.",
+    "events": [
+      {
+        "event": "search",
+        "query": "problems humans handle better than computers tasks neither can perform",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_0",
+            "page": 25,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_4",
+            "page": 24,
+            "score": 0.032258
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_1",
+            "page": 25,
+            "score": 0.015873
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_1"
+        ],
+        "context_chars": 2711
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3604.22,
+    "cost_usd": 0.000283,
+    "question": "What are examples of problems that humans can handle better than computers, and tasks that neither humans nor computers can accurately perform?",
+    "answerable": true
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "answer": "Annually, there are 65,000 H-1B visa numbers available in the regular pool, along with an additional 20,000 visa numbers in the master's exemption pool. [Introduction_To_Computer_Science_-_WEB_p28_paragraph_1]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_1"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p28_paragraph_6"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p28_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 28]\nThese professionals temporarily \nreside in the United States and work in specialty occupations, like computer science, that require a \nminimum education of a bachelor’s degree or its equivalent.9  To participate in the visa program, employers \nmust register and file a petition to hire H-1B visa holders. Each year, the U.S. Citizenship and Immigration \nServices accepts applications from individuals from other countries who compete for a pool of 65,000 visa \nnumbers, as well as an additional pool of 20,000 master’s exemption visa numbers awarded that year and \nvalid for a period of three years. At the end of three years, employers can petition to have each worker’s \nvisa extended for a period of three additional years.10  This program helps U.S.\n\n[Introduction_To_Computer_Science_-_WEB_p28_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 28]\nGLOBAL ISSUES IN TECHNOLOGY \nH-1B Visas Address Worker Shortages \nAccording to the U.S. Bureau of Labor Statistics (BLS), by 2033, the number of jobs available for computer \nand information research scientists is expected to increase by 26%. This is much faster job growth than the \naverage expected in total for all occupations. BLS predicts that this will result in about 3,400 job openings \nper year in technology, including computer science.8 \nTo fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas. This visa enables \nemployers to recruit well-educated professionals from other countries.\n\n[Introduction_To_Computer_Science_-_WEB_p28_paragraph_6 | Introduction_To_Computer_Science_-_WEB.pdf | page 28]\nhttps://www.uscis.gov/working-in-the-united-\nstates/h-1b-specialty-occupations \n10 American Immigration Council, “The H-1B Visa Program and Its Impact on the U.S. Economy,” 2024. \nhttps://www.americanimmigrationcouncil.org/research/h1b-visa-program-fact-sheet \n18     1 • Introduction to Computer Science\nAccess for free at openstax.org",
+    "events": [
+      {
+        "event": "search",
+        "query": "H-1B visa numbers available annually regular pool master's exemption pool",
+        "filter": {
+          "section": "1.1 Computer Science"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p28_paragraph_1",
+            "page": 28,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p28_paragraph_0",
+            "page": 28,
+            "score": 0.032002
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p28_paragraph_6",
+            "page": 28,
+            "score": 0.032002
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p28_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p28_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p28_paragraph_6"
+        ],
+        "context_chars": 2053
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3023.57,
+    "cost_usd": 0.000239,
+    "question": "In Section 1.1 Computer Science, how many H-1B visa numbers are available annually in the regular pool and the master's exemption pool?",
+    "answerable": true
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "answer": "In October 2020, Public Health England failed to report 15,841 positive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used. This incident highlighted the limitations of spreadsheet software, particularly the inability to communicate data loss or errors effectively to users, which can lead to significant oversights in data management and reporting. [Introduction_To_Computer_Science_-_WEB_p30_paragraph_4]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_4"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p40_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p30_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 30]\nOne such example occurred in October 2020 when Public Health England failed to report 15,841 \npositive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used. This \nshortcoming attests not only to the technical limit on the number of rows supported by spreadsheets, but also \nto the design limitations of software that fails to communicate data loss, irregularities, or errors to users. \nErrors in spreadsheet software data entry can often go unnoticed because spreadsheets do not enforce data \ntypes. Cells can contain any content: numbers, currencies, names, percentages, labels, and legends. The \nmeaning of a cell is determined largely by the user rather than the software.\n\n[Introduction_To_Computer_Science_-_WEB_p30_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 30]\nSpreadsheets \nare uniquely effective and accessible because they allow for the visual organization of data in whichever \nstructure makes the most sense to the user. Instead of hiding data behind code, spreadsheets make data as \ntransparent and up to date as possible. \nAlthough spreadsheets make computation accessible for millions of people across the world, they have several \nshortcomings. Unless limits are removed, many popular spreadsheet software products such as Microsoft \nExcel may have a limitation to the number of rows of data they can store that is less than the data of modern \ncomputers.\n\n[Introduction_To_Computer_Science_-_WEB_p40_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 40]\nIn January 2020, Chinese officials \nposted the genetic sequence of the coronavirus SARS-CoV-2. This helped pharmaceutical companies to begin \ndeveloping potential vaccines for the virus at a significantly faster rate than for any other virus in the past \n(Figure 1.11). \nFigure 1.11 The SARS-CoV-2 outbreak that began in 2020 displayed how quickly computer science could be harnessed by \ngovernments, medical facilities, and scientists to decode the virus, develop treatments, and distribute vaccinations around the world. \nWhat would have been a very difficult feat to manage manually was simplified through the use of algorithms and computer \ntechnology.",
+    "events": [
+      {
+        "event": "search",
+        "query": "October 2020 spreadsheet software failure row-limit problem",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_4",
+            "page": 30,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_3",
+            "page": 30,
+            "score": 0.030622
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p40_paragraph_1",
+            "page": 40,
+            "score": 0.03055
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p30_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p30_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p40_paragraph_1"
+        ],
+        "context_chars": 2314
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2618.75,
+    "cost_usd": 0.000254,
+    "question": "What real-world failure in October 2020 illustrated the row-limit problem of spreadsheet software?",
+    "answerable": true
+  },
+  {
+    "query_id": "q10",
+    "status": "answered",
+    "answer": "Computer science is generally considered an applied science rather than a natural science because it does not study natural objects and emphasizes invention or engineering rather than the discovery of natural phenomena. While natural sciences like biology, physics, and chemistry focus on understanding natural phenomena, computer science is more about creating and analyzing computational structures, systems, and processes. This distinction highlights its role as a field that supports various disciplines through applied methodologies rather than purely observational or experimental approaches typical of natural sciences [Introduction_To_Computer_Science_-_WEB_p32_paragraph_2].",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p32_paragraph_2"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p30_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p32_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p30_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 30]\n1.2 Computer Science across the Disciplines \nLearning Objectives \nBy the end of this section, you will be able to: \n• Differentiate between discovery and invention \n• Describe how science, mathematics, and engineering each play a role in computer science \n• Discuss how data science, computational science, and information science each relate to computer \nscience \n• Explain why the various areas of computer science are synergistic \nComputer science is an incredibly diverse field not because of what it can achieve on its own but because of \nhow it contributes to every other field of human knowledge and expertise. From its early days, it was \nunderstood that there would be cross-collaboration between computer scientists and colleagues in other \ndisciplines.\n\n[Introduction_To_Computer_Science_-_WEB_p32_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 32]\nAlthough computer science has been used to support scientific discovery, the theory of knowledge of \ncomputer science has historically been considered quite different from that of the natural sciences, such as \nbiology, physics, and chemistry. Computer science does not study natural objects, so to most, it would not be \nconsidered a natural science but rather an applied science. Unlike natural sciences such as biology, physics, \nand chemistry, which emphasize the discovery of natural phenomena, computer science often emphasizes \ninvention or engineering. \nHowever, computer science is today deeply interdisciplinary and involves methods from across science, \nmathematics, and engineering. Computer scientists design, analyze, and evaluate computational structures, \nsystems, and processes.\n\n[Introduction_To_Computer_Science_-_WEB_p34_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 34]\nComputer Science Is an Interdisciplinary Field \nIn presenting data science, computational science, and information science, we’ve introduced the idea that \ncomputer science can shape other disciplines. But we’ve also raised questions about what computer science is \ntoday. If computer science is the study of all “phenomena surrounding computers,” it could also involve data \nscience, computational science, bioinformatics, cheminformatics, computational social science, medical \ninformatics, and information science. As you will learn in Chapter 13 Hybrid Multicloud Digital Solutions \nDevelopment, another aspect of computer science is responsible computing, which includes the appropriate \nmanagement of cyber resources as well as robust cybersecurity.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Section 1.2 Computer Science across the Disciplines applied science natural science",
+        "filter": {
+          "section": "1.2 Computer Science across the Disciplines"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p30_paragraph_1",
+            "page": 30,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p32_paragraph_2",
+            "page": 32,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.031746
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p30_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p32_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2"
+        ],
+        "context_chars": 2653
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3002.07,
+    "cost_usd": 0.000289,
+    "question": "In Section 1.2 Computer Science across the Disciplines, why is computer science generally considered an applied science rather than a natural science?",
+    "answerable": true
+  },
+  {
+    "query_id": "q11",
+    "status": "answered",
+    "answer": "Information science is described as an interdisciplinary field that studies information technologies and systems in relation to people, organizations, and societies. It has its roots in information classification, categorization, and management, particularly within library systems, but has evolved to encompass the diverse ways information influences society today, including through social media and other communication technologies. This field emphasizes the social value of information, distinguishing it from computer science, which traditionally focuses more on algorithms and computation rather than the human aspects of information management and exchange. [Introduction_To_Computer_Science_-_WEB_p43_paragraph_1] [Introduction_To_Computer_Science_-_WEB_p33_paragraph_3] [Introduction_To_Computer_Science_-_WEB_p44_paragraph_3]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p43_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p33_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p44_paragraph_3"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p33_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p44_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p43_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p33_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 33]\nAlthough information science has its roots in information classification, categorization, and management in \nthe context of library systems, information science today is a broad field that encompasses the many diverse \nways information shapes society. For example, today’s social media networks provide more personable and \ninstantaneous information communication compared to traditional news outlets—billions of people around \nthe world are using social media to engage with information about the world. For many people, social media \nmay be the primary way that they learn about and make sense of the world (Figure 1.8). Yet, we’ve already \nseen risks associated with information technologies such as the Internet.\n\n[Introduction_To_Computer_Science_-_WEB_p44_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 44]\nAs computing is now so central to information management \nand information exchange, information science has significant overlap with computer science. Still, it \ntends to emphasize the social value of information, whereas computer science has (historically) \nemphasized algorithms and computation over people or information. \n• Today, computer science is an interdisciplinary field that contributes to all other fields. Effective \ncomputational solutions to research or business problems require combining domain-specific knowledge \nwith computer science concepts from a combination of areas. \n1.3 Computer Science and the Future of Society \n• Computer science is shaping the future of society.\n\n[Introduction_To_Computer_Science_-_WEB_p43_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 43]\ninterdisciplinary field that applies computing toward managing data and extracting information \nfrom data \nhardware  physical, real-world materials that enable computation \nhuman-computer interaction (HCI)  subfield of computer science that emphasizes the social aspects of \ncomputation \nimage recognition  problem of identifying objects in an image \ninformation science  interdisciplinary field studying information technologies and systems as they relate to \npeople, organizations, and societies \nmemory  means of addressing information in a computer by storing it in consistent locations \nnetwork  various technological devices that are connected and share information \nneural network  AI algorithm architecture that emphasizes connections between artificial “neurons” whose \nbehavior and values",
+    "events": [
+      {
+        "event": "search",
+        "query": "information science Section 1.2",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p33_paragraph_3",
+            "page": 33,
+            "score": 0.032018
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p44_paragraph_3",
+            "page": 44,
+            "score": 0.031754
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_1",
+            "page": 43,
+            "score": 0.029877
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p33_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p44_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p43_paragraph_1"
+        ],
+        "context_chars": 2548
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3395.5,
+    "cost_usd": 0.000284,
+    "question": "What is information science according to Section 1.2?",
+    "answerable": true
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "answer": "The Y2K problem, also known as the millennium bug, was caused by the practice of computer programmers storing only the last two digits of the year instead of four. This decision was made during a time when memory was expensive, leading to shortsighted coding practices that did not account for the transition from the year 1999 to 2000, potentially causing errors in date-related computations and systems. [Introduction_To_Computer_Science_-_WEB_p36_paragraph_0] [Introduction_To_Computer_Science_-_WEB_p36_paragraph_1]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p36_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 36]\nAs noted earlier, computer science is a powerful tool, and computer scientists have vast technological \nknowledge that continues transforming society. Computer scientists have an obligation to be ethical and good \nstewards of technology with an emphasis on responsible computing. Written code influences daily life, from \nwhat we see on social media to the news stories that pop up in a Google search and even who may or may not \nreceive a job interview. When computer scientists don’t consider the ramifications of their code, there can be \nunintended consequences for people around the world. The Y2K problem, also known as the “millennium \nbug,” is a good example of shortsighted decisions that allowed computer scientists to only store the last two \ndigits of the year instead of four.\n\n[Introduction_To_Computer_Science_-_WEB_p36_paragraph_5 | Introduction_To_Computer_Science_-_WEB.pdf | page 36]\nFor each \nidentified lettuce or weed plant, the robot makes a personalized decision about the best chemical \ntreatment for the plant in real time as the tractor moves to the next row of crops. This ability to personalize \nchemical treatments improves yields and plant quality for large-scale industrial agriculture by producing \nmore crops with fewer chemicals. \n15 “Looking at the Y2K bug,” portal on CNN.com. Archived 7 February 2006 at the Wayback Machine. https://web.archive.org/web/\n20060207191845/http://www.cnn.com/TECH/specials/y2k/ \n26     1 • Introduction to Computer Science\nAccess for free at openstax.org\n\n[Introduction_To_Computer_Science_-_WEB_p36_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 36]\nThis made sense at a time when memory was expensive on both mainframe \ncomputers and early versions of personal computers. The Y2K problem was subsequently coined by John \nHamre, the United States Deputy Secretary of Defense, as the “electronic equivalent of the El Niño.”15  The \nfuture of computer science will highly affect the future of the world. Although we often think of computer \ntechnologies as changing the way the world works, it is actually people and their vision for the future that are \namplified by computing. The relationship between computer science and people is about how computer \ntechnologies can bias society and how the choices made through computer systems can both promote and \ndiscourage social inequities.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Y2K problem millennium bug cause",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+            "page": 36,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_5",
+            "page": 36,
+            "score": 0.032002
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1",
+            "page": 36,
+            "score": 0.031545
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p36_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p36_paragraph_5",
+          "Introduction_To_Computer_Science_-_WEB_p36_paragraph_1"
+        ],
+        "context_chars": 2481
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3105.82,
+    "cost_usd": 0.000273,
+    "question": "What caused the Y2K problem, also known as the millennium bug?",
+    "answerable": true
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "answer": "An adversarial attack on a neural network is a sample input, such as an image, specifically designed to cause the system to behave incorrectly. For instance, altering the color of just one point in an image can lead the neural network to misidentify objects, sometimes with high confidence in its erroneous output. This can have serious implications, such as causing self-driving cars to misinterpret traffic signals due to specially designed stickers that alter their appearance. [Introduction_To_Computer_Science_-_WEB_p38_paragraph_5] [Introduction_To_Computer_Science_-_WEB_p39_paragraph_0]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p39_paragraph_0"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p39_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p38_paragraph_5 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\nOften, neural network \napproaches for image recognition have certain examples of images where objects are misidentified in unusual \nways: a person’s face might be recognized in a piece of toast or in a bunch of clouds in the sky. In these \nexamples, the pattern of edges might coincidentally trigger the neural network values so that it misidentifies \nobjects. These are among the more human-understandable examples; there are many other odd situations \nthat are less explainable. An adversarial attack is a sample input (e.g., an image) that is designed to cause a \nsystem to behave problematically. Researchers have found that even tweaking the color of just a single point \nin an image can cause a chain reaction in the neural network, leading it to severely misidentify objects.\n\n[Introduction_To_Computer_Science_-_WEB_p39_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 39]\nadversary can choose the color of the point in such a way as to almost entirely control the output of some \nneural networks: changing a single specific point in an image of a dog might cause the system to recognize \nthe object as a car, airplane, human, or almost anything that the adversary so desires. Moreover, these \nadversarial attacks can often be engineered to cause the neural network to report extremely high confidence \nin its wrong answers. Self-driving cars that use neural networks for image recognition can be at risk of real-\nworld adversarial attacks when specially designed stickers are placed on signs that cause the system to \nrecognize a red light as a green light (Figure 1.10).\n\n[Introduction_To_Computer_Science_-_WEB_p37_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 37]\nRecent approaches to AI for image recognition draw on a family of methods called neural networks instead of \nhaving programmers craft rules or instructions by hand to form an algorithm. In humans, the neural network \nis a complex network in the human brain that consists of neurons, or nerve cells, connected by synapses that \nsend messages and electrical signals to all parts of the body, enabling us to think, move, feel, and function. \nIn computer science, a neural network (Figure 1.9) is an AI algorithm architecture that emphasizes \nconnections between artificial nerve cells whose behavior and values change in response to stimulus or input. \nThese neural networks are not defined by individual neurons but by the combination of all the neurons in the \nnetwork.",
+    "events": [
+      {
+        "event": "search",
+        "query": "adversarial attack on a neural network",
+        "filter": {
+          "section": "1.3 Computer Science and the Future of Society"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_5",
+            "page": 38,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p39_paragraph_0",
+            "page": 39,
+            "score": 0.032266
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+            "page": 37,
+            "score": 0.031054
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_5",
+          "Introduction_To_Computer_Science_-_WEB_p39_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0"
+        ],
+        "context_chars": 2589
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3246.04,
+    "cost_usd": 0.000283,
+    "question": "In Section 1.3 Computer Science and the Future of Society, what is an adversarial attack on a neural network?",
+    "answerable": true
+  },
+  {
+    "query_id": "q14",
+    "status": "answered",
+    "answer": "Digital redlining is defined as the practice of using technology, such as targeted ads, to promote discrimination. An example includes a lawsuit where companies excluded individuals over the age of 50 from housing advertisements to attract younger tenants. This practice reflects broader issues of racial segregation and wealth inequalities, as microtargeted ads can reinforce historical redlining by using data like zip codes or neighborhoods, even if not explicitly designed to discriminate. [Introduction_To_Computer_Science_-_WEB_p41_paragraph_3] [Introduction_To_Computer_Science_-_WEB_p41_paragraph_2]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_2"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_6",
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_2"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p41_paragraph_6 | Introduction_To_Computer_Science_-_WEB.pdf | page 41]\nIt’s called digital redlining,” 2022. https://mashable.com/article/facebook-digital-\nredlining-ads-protected-traits-section-230 \n1.3 • Computer Science and the Future of Society     31\n\n[Introduction_To_Computer_Science_-_WEB_p41_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 41]\nThis may result in digital redlining, which is the practice of using technology, such as \ntargeted ads, to promote discrimination. In 2021, a Facebook user filed a class-action lawsuit that argued nine \ncompanies in the Washington, D.C., area deliberately excluded people over the age of 50 from seeing their \nadvertisements for housing because they wanted to attract younger people to live in their apartments.16  This \nis an example of an issue in technology that should be addressed by responsible computing with an emphasis \non ethical behavior. \nWith good intentions and attention to personal biases, technologies can be designed for social good.\n\n[Introduction_To_Computer_Science_-_WEB_p41_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 41]\nIn the United States, these communities reflect the histories of racial \nsegregation and racial wealth inequalities. Fair housing laws are intended to prevent property owners from \ndiscriminating against buyers or renters because of race, color, ability, national origin, and other protected \nclasses. But computer technologies also present new kinds of challenges. Microtargeted ads on social media \nplatforms contribute to not only political polarization, but also discrimination in housing. This can be a \nparticular problem when combined with redlining. Even if the ad targeting is not explicitly designed to \ndiscriminate, microtargeted ads can still reinforce historical redlining by incorporating data such as zip codes \nor neighborhoods.",
+    "events": [
+      {
+        "event": "search",
+        "query": "digital redlining definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_6",
+            "page": 41,
+            "score": 0.032787
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_3",
+            "page": 41,
+            "score": 0.032002
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_2",
+            "page": 41,
+            "score": 0.031754
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_2"
+        ],
+        "context_chars": 1920
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3055.08,
+    "cost_usd": 0.000252,
+    "question": "How is digital redlining defined in the textbook?",
+    "answerable": true
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "answer": "Decomposition in computational thinking is the analytical process of breaking down complex concepts or problems into smaller, more manageable parts. This approach aids in analyzing and solving problems more effectively, allowing for a structured method to tackle challenges in computing and problem-solving contexts. [Introduction_To_Computer_Science_-_WEB_p51_paragraph_3] [Introduction_To_Computer_Science_-_WEB_p52_paragraph_0]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p51_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p52_paragraph_0"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p51_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p52_paragraph_0"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p50_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 50]\n2.1 Computational Thinking \nLearning Objectives \nBy the end of this section, you will be able to: \n• Define computational thinking \n• Discuss computational thinking examples \nThis chapter presents key aspects of computational thinking, including logical thinking, assessment, \ndecomposition, pattern recognition, abstraction, generalization, componentization, and automation. These \nelements guide how computer scientists approach problems and create well-designed solution building blocks \nat both the business and technical levels. Computational thinking often involves a bottom-up approach, \nfocusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data \nstructures and algorithms.\n\n[Introduction_To_Computer_Science_-_WEB_p51_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 51]\nLet’s explore each characteristic in more detail: \n• Decomposition: The analytical process of breaking down complex concepts or problems into smaller parts \n2.1 • Computational Thinking     41\n\n[Introduction_To_Computer_Science_-_WEB_p52_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 52]\nis called decomposition. This approach helps analyze and solve problems more effectively. \n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the \nlogical organization and analysis of data. This includes the ability to structure information in a way that \nfacilitates effective problem-solving. \n• Representing data through abstractions: An abstraction is a simplified representation of complex systems \nor phenomena. Computational thinking involves representing data through an abstraction, such as a \nsimulation, which uses models as surrogates for real systems. \n• Automation through algorithmic thinking: Using a program or computer application to perform repetitive \ntasks or calculations is considered automation.",
+    "events": [
+      {
+        "event": "search",
+        "query": "decomposition in computational thinking",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+            "page": 50,
+            "score": 0.032266
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p51_paragraph_3",
+            "page": 51,
+            "score": 0.032258
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p52_paragraph_0",
+            "page": 52,
+            "score": 0.032018
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p51_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p52_paragraph_0"
+        ],
+        "context_chars": 2025
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 5076.78,
+    "cost_usd": 0.000228,
+    "question": "What is decomposition in computational thinking?",
+    "answerable": true
+  },
+  {
+    "query_id": "q21",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain specific information regarding the minimum hardware requirements (RAM and CPU clock speed) for deploying hybrid multicloud solutions.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+      "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p34_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 34]\nComputer Science Is an Interdisciplinary Field \nIn presenting data science, computational science, and information science, we’ve introduced the idea that \ncomputer science can shape other disciplines. But we’ve also raised questions about what computer science is \ntoday. If computer science is the study of all “phenomena surrounding computers,” it could also involve data \nscience, computational science, bioinformatics, cheminformatics, computational social science, medical \ninformatics, and information science. As you will learn in Chapter 13 Hybrid Multicloud Digital Solutions \nDevelopment, another aspect of computer science is responsible computing, which includes the appropriate \nmanagement of cyber resources as well as robust cybersecurity.\n\n[Introduction_To_Computer_Science_-_WEB_p19_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 19]\nThe book subsequently delves \ninto computer science areas that enable the design and development of software solutions using high-level \nprogramming languages (i.e., coding languages designed to be more intuitive for humans), architectural styles \nand related models, data management systems, and software engineering. Finally, the book demonstrates \nhow to leverage computer science realizations and areas to build modern end-to-end solutions to business \nand social problems. In particular, the book focuses on modern web applications development, cloud-native \napplications development, and hybrid Cloud/on-premise digital solutions. The various chapters emphasize \nhow to achieve software solution qualities such as performance and scalability.\n\n[Introduction_To_Computer_Science_-_WEB_p23_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nAnything that can be computed on \n1.1 • Computer Science     13\n\n[Introduction_To_Computer_Science_-_WEB_p23_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 23]\nThe \nmemory is a means of addressing information in a computer by storing it in consistent locations, while the \nnetwork refers to the various technological devices that are connected and share information. The hardware \nand physical components of a computer that permanently house a computer’s data are called storage. \nOne way to understand computers is from a hardware perspective: computers leverage digital electronics and \nthe physics of materials used to develop transistors. For example, many of today’s computers rely on the \nphysical properties of a brittle, crystalline metalloid called silicon, which makes it suitable for representing \ninformation.",
+    "events": [
+      {
+        "event": "search",
+        "query": "minimum hardware requirements RAM CPU clock speed hybrid multicloud solutions Chapter 13",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+            "page": 19,
+            "score": 0.032002
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.031545
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+            "page": 23,
+            "score": 0.031514
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4"
+        ],
+        "context_chars": 1906
+      },
+      {
+        "event": "search",
+        "query": "Chapter 13 hybrid multicloud solutions hardware requirements RAM CPU",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+            "page": 19,
+            "score": 0.032266
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.032018
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+            "page": 23,
+            "score": 0.031054
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1"
+        ],
+        "context_chars": 2681
+      },
+      {
+        "event": "search",
+        "query": "Chapter 13 hybrid multicloud solutions minimum hardware requirements",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.032522
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+            "page": 19,
+            "score": 0.032266
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1",
+            "page": 23,
+            "score": 0.03031
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p19_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_4",
+          "Introduction_To_Computer_Science_-_WEB_p23_paragraph_1"
+        ],
+        "context_chars": 2681
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain specific information regarding the minimum hardware requirements (RAM and CPU clock speed) for deploying hybrid multicloud solutions."
+      }
+    ],
+    "elapsed_ms": 5391.55,
+    "cost_usd": 0.000711,
+    "question": "What are the exact minimum hardware requirements (RAM and CPU clock speed) recommended in Chapter 13 for deploying hybrid multicloud solutions?",
+    "answerable": false
+  },
+  {
+    "query_id": "q22",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain any information regarding the syntax for defining a decorator function in Python.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+      "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p25_paragraph_4"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p34_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 34]\nIt is difficult to define computer science today \nbecause it is so widely used by people across the world in diverse capacities. Definitions are about defining \nboundaries and excluding practices, which may be helpful for understanding the practices of a certain culture \nor group that is “doing” computer science, but it can never truly represent everyone and all the things that \npeople are doing with computer science.\n\n[Introduction_To_Computer_Science_-_WEB_p25_paragraph_6 | Introduction_To_Computer_Science_-_WEB.pdf | page 25]\nHelping Social Studies Teachers to Design Learning Experiences Around Data: \nParticipatory Design for New Teacher-Centric Programming Languages. In Proceedings of the 2019 ACM Conference on International \nComputing Education Research (ICER '19). Association for Computing Machinery, New York, NY, USA, 313. DOI: https://doi.org/\n10.1145/3291279.3341211 \n1.1 • Computer Science     15\n\n[Introduction_To_Computer_Science_-_WEB_p37_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 37]\nRecent approaches to AI for image recognition draw on a family of methods called neural networks instead of \nhaving programmers craft rules or instructions by hand to form an algorithm. In humans, the neural network \nis a complex network in the human brain that consists of neurons, or nerve cells, connected by synapses that \nsend messages and electrical signals to all parts of the body, enabling us to think, move, feel, and function. \nIn computer science, a neural network (Figure 1.9) is an AI algorithm architecture that emphasizes \nconnections between artificial nerve cells whose behavior and values change in response to stimulus or input. \nThese neural networks are not defined by individual neurons but by the combination of all the neurons in the \nnetwork.\n\n[Introduction_To_Computer_Science_-_WEB_p25_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 25]\nPapert argued that this turtle programming enabled body-syntonic reasoning, \na kind of experience that could help students more effectively learn concepts in mathematics such as angles, \ndistance, and geometric shapes by instructing the turtle to draw them, and physics by constructing their own \nunderstandings via reasoning through the physical motion of turtle programs by showing concepts of velocity, \nrepeated commands to move forward the same amount; acceleration, by making the turtle move forward in \nincreasing amounts; and even friction, by having the turtle slow down by moving forward by decreasing \namounts. In this way, computers could not only be used to further education in computer science, but also \noffer new, more dynamic ways to learn other subjects.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Python syntax for defining a decorator function",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_3",
+            "page": 34,
+            "score": 0.030886
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+            "page": 25,
+            "score": 0.016393
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+            "page": 37,
+            "score": 0.016129
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0"
+        ],
+        "context_chars": 1912
+      },
+      {
+        "event": "search",
+        "query": "decorator function Python syntax",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+            "page": 25,
+            "score": 0.016393
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+            "page": 37,
+            "score": 0.016393
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p49_paragraph_2",
+            "page": 49,
+            "score": 0.016129
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p49_paragraph_2"
+        ],
+        "context_chars": 2767
+      },
+      {
+        "event": "search",
+        "query": "Python decorator function definition syntax",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+            "page": 25,
+            "score": 0.016393
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+            "page": 37,
+            "score": 0.016393
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p25_paragraph_4",
+            "page": 25,
+            "score": 0.016129
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p37_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p25_paragraph_4"
+        ],
+        "context_chars": 2799
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain any information regarding the syntax for defining a decorator function in Python."
+      }
+    ],
+    "elapsed_ms": 5262.72,
+    "cost_usd": 0.000729,
+    "question": "According to the textbook, what is the exact Python syntax for defining a decorator function?",
+    "answerable": false
+  }
+]

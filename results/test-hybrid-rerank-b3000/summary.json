@@ -1,0 +1,13 @@
+{
+  "method": "hybrid_rrf_rerank",
+  "n": 5,
+  "top_k": 3,
+  "budget_chars": 3000,
+  "hit1": "5/5 (100.0%)",
+  "hit3": "5/5 (100.0%)",
+  "context_evidence_rate": "5/5 (100.0%)",
+  "avg_context_chars": 2436.8,
+  "median_ms": 2969.71,
+  "total_cost_usd": 0.001738,
+  "split": "test"
+}

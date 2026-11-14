@@ -1,0 +1,44 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "Từ chối nhầm câu có đáp án vì budget=800 bỏ qua chunk dài chứa bằng chứng (trang 22)."
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Chunk p24_paragraph_1 vừa budget (dưới 800 ký tự) và hỗ trợ đầy đủ định nghĩa Turing-complete."
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "Từ chối nhầm câu có đáp án vì budget=800 loại chunk dài trên trang 41."
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "Từ chối nhầm câu có đáp án vì budget=800 loại chunk trang 52."
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "Từ chối nhầm câu có đáp án vì chunk chứa định nghĩa trên trang 38 vượt budget=800."
+  },
+  {
+    "query_id": "q23",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối chính xác; tài liệu không có thông tin hyperparameter của DALL-E."
+  },
+  {
+    "query_id": "q24",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối chính xác; Chương 14 không nằm trong corpus (trang 19-52)."
+  }
+]

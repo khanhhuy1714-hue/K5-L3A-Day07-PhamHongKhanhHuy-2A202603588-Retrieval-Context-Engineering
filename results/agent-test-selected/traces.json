@@ -1,0 +1,487 @@
+[
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "answer": "The term computer science was popularized by George E. Forsythe in 1961. He defined computer science as \"the theory of programming, numerical analysis, data processing, and the design of computer systems.\" Forsythe emphasized that computer science is distinguished from other disciplines by its focus on algorithms, which are essential for effective programming. Additionally, he noted that computer science encompasses not only the study of computers but also the people involved in designing, programming, testing, and being affected by computers.[Introduction_To_Computer_Science_-_WEB_p22_paragraph_1]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p21_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p22_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 22]\nThe term computer science was popularized by George E. Forsythe in 1961. A mathematician who founded \nStanford University’s computer science department, Forsythe defined computer science as “the theory of \nprogramming, numerical analysis, data processing, and the design of computer systems.” He also argued that \ncomputer science was distinguished from other disciplines by the emphasis on algorithms, which are essential \nfor effective computer programming.3 \nComputer science is not only about the study of how computers work, but also everything surrounding \ncomputers, including the people who design computers, the people who write programs that run on \ncomputers, the people who test the programs to ensure correctness, and the people who are directly and \nindirectly affected by computers.\n\n[Introduction_To_Computer_Science_-_WEB_p21_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 21]\nIn the \n1940s, multiple computers became available, including IBM’s Harvard Mark 1. These were the forerunners to \nthe advent of the digital computer in the 1950s, which changed everything and evolved into the computers \nand related technology we have today. \nAround this time, computer science emerged as an academic discipline rooted in the principles of \nmathematics, situated primarily in elite institutions, and funded by demand from the military for use in missile \nguidance systems, airplanes, and other military applications. As computers could execute programs faster \nthan humans, computer science replaced human-powered calculation with computer-powered problem-\nsolving methods.\n\n[Introduction_To_Computer_Science_-_WEB_p34_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 34]\nComputer Science Is an Interdisciplinary Field \nIn presenting data science, computational science, and information science, we’ve introduced the idea that \ncomputer science can shape other disciplines. But we’ve also raised questions about what computer science is \ntoday. If computer science is the study of all “phenomena surrounding computers,” it could also involve data \nscience, computational science, bioinformatics, cheminformatics, computational social science, medical \ninformatics, and information science. As you will learn in Chapter 13 Hybrid Multicloud Digital Solutions \nDevelopment, another aspect of computer science is responsible computing, which includes the appropriate \nmanagement of cyber resources as well as robust cybersecurity.",
+    "events": [
+      {
+        "event": "search",
+        "query": "computer science term popularized 1961 definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+            "page": 22,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p21_paragraph_3",
+            "page": 21,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p21_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2"
+        ],
+        "context_chars": 2582
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 7532.98,
+    "cost_usd": 0.000629,
+    "question": "Who popularized the term computer science in 1961 and how did he define it?",
+    "answerable": true
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "answer": "A computer is considered Turing-complete if it can simulate a Turing machine, meaning it can perform any computation that can be described algorithmically. This includes the ability to store data in memory and manipulate that data according to a program, which is an algorithm that can be executed on the computer. Turing-completeness implies that the computer can run any algorithm, making it computationally universal, as opposed to specialized devices like scientific calculators. This concept is foundational in theoretical computer science, which explores the limits of what can be computed and how efficiently problems can be solved using algorithms. Turing-complete computers include almost all modern computers, from historical ones like the ENIAC to future designs yet to be invented [Introduction_To_Computer_Science_-_WEB_p24_paragraph_1][Introduction_To_Computer_Science_-_WEB_p24_paragraph_2][Introduction_To_Computer_Science_-_WEB_p24_paragraph_3].",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p24_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\nAlmost all computers, from the ENIAC to today’s computers, are considered Turing-complete (or \nComputationally Universal, as opposed to specialized computing devices such as scientific calculators) because \nthey share the same fundamental model for computing results and every computer has the ability to run any \nalgorithm. Alan Mathison Turing was an English mathematician who was highly influential in the development \nof theoretical computer science, which focuses on the mathematical processes behind software, and provided \na formalization of the concepts of algorithm and computation with the Turing machine.\n\n[Introduction_To_Computer_Science_-_WEB_p24_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\nWhereas software focuses on the program \ndetails for solving problems with computers, theoretical computer science focuses on the mathematical \nprocesses behind software. The idea of Turing-completeness is a foundational concept in theoretical computer \nscience, which considers how computers in general—not just the ENIAC or today’s computers, but even \ntomorrow’s computers that we haven’t yet invented—can solve problems. This theoretical perspective expands \ncomputer science knowledge by contributing ideas about (1) whether a problem can be computed by a Turing-\ncomplete computer at all, (2) how that problem might be computed using an algorithm, and (3) how quickly or \nefficiently a computer can run such an algorithm.\n\n[Introduction_To_Computer_Science_-_WEB_p24_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 24]\nA Turing-complete \ncomputer stores data in memory (either using vacuum tubes or silicon) and manipulates that data according \nto a computer program, which is an algorithm that can be run on a computer. These programs are \nrepresented using symbols and instructions written in a programming language consisting of symbols and \ninstructions that can be interpreted by the computer. Programs are also stored in memory, which allows \nprogrammers to modify and improve programs by changing the instructions. \nWhile both hardware and software are important to the practical operation of computers, computer science’s \nhistorical roots in mathematics also emphasize a third perspective.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Turing-complete definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+            "page": 24,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3",
+            "page": 24,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2",
+            "page": 24,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2"
+        ],
+        "context_chars": 2361
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 17850.46,
+    "cost_usd": 0.000687,
+    "question": "What does it mean for a computer to be Turing-complete?",
+    "answerable": true
+  },
+  {
+    "query_id": "q18",
+    "status": "answered",
+    "answer": "A technological fix can end up causing more problems than it resolves when it is applied without careful consideration of the specific social and political context. This critique emphasizes the need for responsible handling of technological solutions, as blind faith in technology can lead to unintended consequences that exacerbate existing issues rather than alleviate them. Therefore, selecting the appropriate technology for specific problems is crucial to avoid such negative outcomes [41]. [Introduction_To_Computer_Science_-_WEB_p41_paragraph_5]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5",
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p41_paragraph_5 | Introduction_To_Computer_Science_-_WEB.pdf | page 41]\nIn it, the \nauthors show how a segregated world where people simply prefer living near other people who are like \nthemselves (a “small individual bias”) can re-create and reproduce “large collective bias.” \nAs part of responsible computing, computer scientists must be aware of technological fix, which refers to the \nidea that technologies can solve social problems, but is now often used to critique blind faith in technological \nsolutions to human problems. Unless the process is handled responsibly, the “fix” may cause more problems \nthan it resolves. When considering how to address social and political problems, computer scientists must take \ncare to ensure that they select the appropriate technology to address specific problems. \n16 C. Silva, “Facebook ads have a problem.\n\n[Introduction_To_Computer_Science_-_WEB_p38_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\ndevelopment of foundational computer technologies not only creates opportunities for direct and indirect \napplications, but also supports the development of other computer technologies. \nJust as we saw how technological fixes embodied a powerful belief about the relationship between computer \nsolutions and social good, a similar cultural belief exists about the relationship between foundational \ntechnologies and their social values. The belief that technologies are inherently neutral and that it is the \npeople using technology who ultimately make it “good” or “bad” is considered social determination of \ntechnology. \nTHINK IT THROUGH \nSocial Determination of Technology \nDo you agree with the social determination of technology?\n\n[Introduction_To_Computer_Science_-_WEB_p43_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 43]\nstorage  hardware and physical components of a computer that permanently house a computer’s data \ntechnological fix  idea that technologies can solve social problems, but now often used to critique blind faith \nin technological solutions to human problems \ntheoretical computer science  mathematical processes behind software \nTuring-complete  fundamental model for computing results and every computer has the ability to run any \nalgorithm \nvacuum tube  physical device that works like a light bulb used as memory in early digital computers \n Summary \n1.1 Computer Science \n• Computer science is pervasive in our daily lives, business and industry, scientific research and \ndevelopment, and social change.",
+    "events": [
+      {
+        "event": "search",
+        "query": "technological fix problems conditions",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5",
+            "page": 41,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+            "page": 38,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3",
+            "page": 43,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p43_paragraph_3"
+        ],
+        "context_chars": 2564
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 5687.37,
+    "cost_usd": 0.000608,
+    "question": "Under what condition can a technological fix end up causing more problems than it resolves?",
+    "answerable": true
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "answer": "The three As of computational thinking are: 1. **Abstraction**: This initial phase involves problem formulation. 2. **Automation**: In this phase, the focus shifts to expressing the solution. 3. **Analysis**: The final phase encompasses solution execution and evaluation. Together, these phases illustrate the power of computational thinking in problem-solving processes. [Introduction_To_Computer_Science_-_WEB_p52_paragraph_2]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p50_paragraph_4"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p52_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 52]\nThese \nabilities involve the following characteristics: confidence in navigating complexity, resilience in tackling \nchallenging problems, an acceptance of ambiguity, adeptness in addressing open-ended issues, and \nproficiency in collaborating with others to attain shared objectives or solutions. Another illustration of \ncomputational thinking is the three As, which is organized into three phases, as visualized in Figure 2.3: \n1. Abstraction: The initial step involves problem formulation. \n2. Automation: Next, the focus shifts to expressing the solution. \n3. Analysis: Finally, the process encompasses solution execution and evaluation. \nFigure 2.3 The three As—abstraction, automation, analysis—illustrate the power of computational thinking.\n\n[Introduction_To_Computer_Science_-_WEB_p50_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 50]\n2.1 Computational Thinking \nLearning Objectives \nBy the end of this section, you will be able to: \n• Define computational thinking \n• Discuss computational thinking examples \nThis chapter presents key aspects of computational thinking, including logical thinking, assessment, \ndecomposition, pattern recognition, abstraction, generalization, componentization, and automation. These \nelements guide how computer scientists approach problems and create well-designed solution building blocks \nat both the business and technical levels. Computational thinking often involves a bottom-up approach, \nfocusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data \nstructures and algorithms.\n\n[Introduction_To_Computer_Science_-_WEB_p50_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 50]\nWhile “computational thinking” is still perceived by some as an abstract concept without a universally accepted \ndefinition, its core value is to facilitate the application of separate strategies and tools to address complex \nproblems. In problem-solving, computers play a central role, but their effectiveness centers on a prior \ncomprehension of the problem and its potential solutions. Computational thinking serves as the bridge \nbetween the problem and its resolution. It empowers solution designers to navigate the complexity of a given \nproblem, separate its components, and formulate possible solutions. These solutions, once developed, can be \ncommunicated in a manner that is comprehensible to both computers and humans, adopting effective \nproblem-solving.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Section 2.1 Computational Thinking three As",
+        "filter": {
+          "section": "2.1 Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2",
+            "page": 52,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+            "page": 50,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p50_paragraph_4",
+            "page": 50,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p50_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p50_paragraph_4"
+        ],
+        "context_chars": 2582
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 7173.95,
+    "cost_usd": 0.000586,
+    "question": "In Section 2.1 Computational Thinking, what are the three As of computational thinking and what does each phase represent?",
+    "answerable": true
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "answer": "The social determination of technology is the belief that technologies are inherently neutral, and it is the people using technology who ultimately make it 'good' or 'bad.' This perspective suggests that the biases present in technologies, such as AI systems, arise from the social values embedded in the data rather than from the design of the algorithms themselves. Critics argue that the way AI learns from data can encode social values, potentially reproducing existing biases, which raises ethical considerations for computer scientists in their practice of responsible computing [Introduction_To_Computer_Science_-_WEB_p38_paragraph_0][Introduction_To_Computer_Science_-_WEB_p38_paragraph_2].",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2"
+    ],
+    "num_searches": 1,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p38_paragraph_0 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\ndevelopment of foundational computer technologies not only creates opportunities for direct and indirect \napplications, but also supports the development of other computer technologies. \nJust as we saw how technological fixes embodied a powerful belief about the relationship between computer \nsolutions and social good, a similar cultural belief exists about the relationship between foundational \ntechnologies and their social values. The belief that technologies are inherently neutral and that it is the \npeople using technology who ultimately make it “good” or “bad” is considered social determination of \ntechnology. \nTHINK IT THROUGH \nSocial Determination of Technology \nDo you agree with the social determination of technology?\n\n[Introduction_To_Computer_Science_-_WEB_p38_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\nA social determination of technology accepts this explanation of AI bias and leaves the \ndesign of AI algorithms and techniques as neutral: the bias in an AI system is attributed to the social values of \nthe data rather than the design of the AI algorithms. Critics of social determination point out that the way AI \nalgorithms learn from big data represents a social value, one that encodes a default preference for \nreproducing the biases inherent in big data. This applies whether the AI application is about fair housing, \nmedical imaging, ad targeting, drone strikes, or another topic. This is an issue that computer scientists must \nconsider as they practice responsible computing and strive to ensure that data is gathered and handled as \nethically as possible.\n\n[Introduction_To_Computer_Science_-_WEB_p38_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\nIs it possible for technology—before it is used by \npeople to solve certain problems—to encode social values? Try to come up with an example that would \nsupport this belief. What about an example that refutes this belief? What are the social implications of \nagreeing or disagreeing with the social determination of technology? \nToday’s neural networks are designed to identify patterns and reproduce existing data. It is widely accepted \nthat many big datasets can encode social preferences and values, particularly when the data is collected from \nusers on the Internet.",
+    "events": [
+      {
+        "event": "search",
+        "query": "social determination of technology",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+            "page": 38,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2",
+            "page": 38,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1",
+            "page": 38,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_1"
+        ],
+        "context_chars": 2415
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 6260.17,
+    "cost_usd": 0.000635,
+    "question": "What is the social determination of technology?",
+    "answerable": true
+  },
+  {
+    "query_id": "q23",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain specific information about the fine-tuning hyperparameters (learning rate and batch size) used by OpenAI to train DALL-E.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+      "Introduction_To_Computer_Science_-_WEB_p42_paragraph_1"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p36_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 36]\nAI \nrefers to a subfield of CS that is interested in solving problems that require the application of machine learning \nto human cognitive processes to achieve goals. AI research seeks to develop algorithm architectures that can \nmake progress toward solving problems. One such example is image recognition, or the problem of \nidentifying objects in an image. This problem is quite difficult for programmers to solve using traditional \nprogramming methods. Imagine having to define very precise rules or instructions that could identify an \nobject in an image regardless of its position, size, lighting conditions, or perspective. As humans, we have an \nintuitive sense of the qualities of an object.\n\n[Introduction_To_Computer_Science_-_WEB_p48_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 48]\nExplore DALL-E (https://openstax.org/r/76DALL-E), a very large neural network created by OpenAI “that \ncreates images from text captions for a wide range of concepts expressible in natural language.” If the \nneural network is learning from English language images and captions on the Internet, what are some of \nthe social risks of this system? How might it encode problematic ideas about marginalized people in \nsociety? \n38     1 • Chapter Review\nAccess for free at openstax.org\n\n[Introduction_To_Computer_Science_-_WEB_p38_paragraph_3 | Introduction_To_Computer_Science_-_WEB.pdf | page 38]\nEvaluating Negative Consequences of Technology \nToday’s AI technologies work by reproducing existing patterns rather than imagining radically different \nfutures. As much as neural networks are inspired by the human brain, it would be a stretch to suggest that AI \nsystems have any semblance of general intelligence. Though these systems might be quite effective at \nidentifying lettuce plants from weed plants in an image, their capacity for humanlike intelligence is limited by \ndesign. A neural network learns to recognize similar patterns that appear across millions or billions of sample \nimages and represent these patterns with millions or billions of numbers. Mathematical optimization methods \nare used to choose the numeric values that best encode correlations across the sample images.\n\n[Introduction_To_Computer_Science_-_WEB_p42_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 42]\nLINK TO LEARNING \nAnatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the \nAmazon Echo does not just involve computer technology, but also involves a vast and deeply \ninterconnected web of human labor, data, and physical resources that are often taken for granted. \nEvaluation of the negative consequences of technology does not end at the technology itself, but also \nconsiders its broad-reaching impacts and implications for people around the world. \n32     1 • Introduction to Computer Science\nAccess for free at openstax.org",
+    "events": [
+      {
+        "event": "search",
+        "query": "DALL-E training hyperparameters learning rate batch size Chapter 1",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+            "page": 48,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+            "page": 38,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p42_paragraph_1",
+            "page": 42,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p42_paragraph_1"
+        ],
+        "context_chars": 2186
+      },
+      {
+        "event": "search",
+        "query": "DALL-E training hyperparameters learning rate batch size",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+            "page": 36,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+            "page": 38,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p37_paragraph_3",
+            "page": 37,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p42_paragraph_1"
+        ],
+        "context_chars": 3000
+      },
+      {
+        "event": "search",
+        "query": "DALL-E training hyperparameters learning rate batch size OpenAI",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+            "page": 36,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+            "page": 38,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p37_paragraph_3",
+            "page": 37,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p36_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p48_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p38_paragraph_3",
+          "Introduction_To_Computer_Science_-_WEB_p42_paragraph_1"
+        ],
+        "context_chars": 3000
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain specific information about the fine-tuning hyperparameters (learning rate and batch size) used by OpenAI to train DALL-E."
+      }
+    ],
+    "elapsed_ms": 17606.89,
+    "cost_usd": 0.001884,
+    "question": "What specific fine-tuning hyperparameters (learning rate and batch size) did OpenAI use to train DALL-E according to Chapter 1?",
+    "answerable": false
+  },
+  {
+    "query_id": "q24",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain specific information about the five cybersecurity governance frameworks compared in Chapter 14.)",
+    "citations": [],
+    "num_searches": 3,
+    "context_ids": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p44_paragraph_6",
+      "Introduction_To_Computer_Science_-_WEB_p43_paragraph_4"
+    ],
+    "context": "[Introduction_To_Computer_Science_-_WEB_p41_paragraph_1 | Introduction_To_Computer_Science_-_WEB.pdf | page 41]\nFor example, if a local government agency is working with a biased dataset, \npolitical leaders may make decisions that result in certain citizens receiving inadequate funding or services. \nThis is an example of why responsible computing, which we will cover in Chapter 14 Cyber Resources Qualities \nand Cyber Computing Governance, is so important. \nThese problematic histories are not only aggravated in medicine and public health, but also reflected in \nhousing. Redlining refers to the inequitable access to basic public services based on residents’ neighborhoods \nand communities, which includes the practice of withholding financial services from areas with a large \nunderrepresented population.\n\n[Introduction_To_Computer_Science_-_WEB_p34_paragraph_2 | Introduction_To_Computer_Science_-_WEB.pdf | page 34]\nComputer Science Is an Interdisciplinary Field \nIn presenting data science, computational science, and information science, we’ve introduced the idea that \ncomputer science can shape other disciplines. But we’ve also raised questions about what computer science is \ntoday. If computer science is the study of all “phenomena surrounding computers,” it could also involve data \nscience, computational science, bioinformatics, cheminformatics, computational social science, medical \ninformatics, and information science. As you will learn in Chapter 13 Hybrid Multicloud Digital Solutions \nDevelopment, another aspect of computer science is responsible computing, which includes the appropriate \nmanagement of cyber resources as well as robust cybersecurity.\n\n[Introduction_To_Computer_Science_-_WEB_p44_paragraph_6 | Introduction_To_Computer_Science_-_WEB.pdf | page 44]\nYet \napplications for social good are often embedded in broader social and political dynamics that computer \nscience has difficulty addressing. Even though computer technologies can be designed for social good, \nthey can cause harm when their design processes fail to center on human values and diverse users. \n34     1 • Chapter Review\nAccess for free at openstax.org\n\n[Introduction_To_Computer_Science_-_WEB_p43_paragraph_4 | Introduction_To_Computer_Science_-_WEB.pdf | page 43]\n• Computer science (CS) is the study of computing, which includes all phenomena related to computers, \n1 • Chapter Review     33",
+    "events": [
+      {
+        "event": "search",
+        "query": "five cybersecurity governance frameworks Chapter 14",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+            "page": 41,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1",
+            "page": 49,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1"
+        ],
+        "context_chars": 2488
+      },
+      {
+        "event": "search",
+        "query": "cybersecurity governance frameworks comparison Chapter 14",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+            "page": 41,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p44_paragraph_6",
+            "page": 44,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1",
+            "page": 49,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p44_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p49_paragraph_1"
+        ],
+        "context_chars": 2970
+      },
+      {
+        "event": "search",
+        "query": "Chapter 14 cybersecurity governance frameworks",
+        "filter": null,
+        "results": [
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+            "page": 41,
+            "score": 1.0
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+            "page": 34,
+            "score": 0.5
+          },
+          {
+            "id": "Introduction_To_Computer_Science_-_WEB_p43_paragraph_4",
+            "page": 43,
+            "score": 0.333333
+          }
+        ],
+        "context_ids": [
+          "Introduction_To_Computer_Science_-_WEB_p41_paragraph_1",
+          "Introduction_To_Computer_Science_-_WEB_p34_paragraph_2",
+          "Introduction_To_Computer_Science_-_WEB_p44_paragraph_6",
+          "Introduction_To_Computer_Science_-_WEB_p43_paragraph_4"
+        ],
+        "context_chars": 2404
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved passages do not contain specific information about the five cybersecurity governance frameworks compared in Chapter 14."
+      }
+    ],
+    "elapsed_ms": 17511.93,
+    "cost_usd": 0.001678,
+    "question": "What are the five cybersecurity governance frameworks compared in Chapter 14 of this textbook?",
+    "answerable": false
+  }
+]

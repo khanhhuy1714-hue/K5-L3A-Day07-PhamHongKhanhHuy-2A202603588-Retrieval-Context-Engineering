@@ -1,0 +1,105 @@
+[
+  {
+    "query_id": "q16",
+    "question": "Who popularized the term computer science in 1961 and how did he define it?",
+    "expected_answer": "George E. Forsythe popularized the term in 1961, defining it as the theory of programming, numerical analysis, data processing, and the design of computer systems.",
+    "agent_status": "answered",
+    "agent_answer": "The term computer science was popularized by George E. Forsythe in 1961. He defined computer science as \"the theory of programming, numerical analysis, data processing, and the design of computer systems.\" Forsythe emphasized that computer science is distinguished from other disciplines by its focus on algorithms, which are essential for effective programming. Additionally, he noted that computer science encompasses not only the study of computers but also the people involved in designing, programming, testing, and being affected by computers.[Introduction_To_Computer_Science_-_WEB_p22_paragraph_1]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p22_paragraph_1"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q17",
+    "question": "What does it mean for a computer to be Turing-complete?",
+    "expected_answer": "It shares the same fundamental model for computing results and has the ability to run any algorithm, unlike specialized devices such as scientific calculators.",
+    "agent_status": "answered",
+    "agent_answer": "A computer is considered Turing-complete if it can simulate a Turing machine, meaning it can perform any computation that can be described algorithmically. This includes the ability to store data in memory and manipulate that data according to a program, which is an algorithm that can be executed on the computer. Turing-completeness implies that the computer can run any algorithm, making it computationally universal, as opposed to specialized devices like scientific calculators. This concept is foundational in theoretical computer science, which explores the limits of what can be computed and how efficiently problems can be solved using algorithms. Turing-complete computers include almost all modern computers, from historical ones like the ENIAC to future designs yet to be invented [Introduction_To_Computer_Science_-_WEB_p24_paragraph_1][Introduction_To_Computer_Science_-_WEB_p24_paragraph_2][Introduction_To_Computer_Science_-_WEB_p24_paragraph_3].",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_1",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_2",
+      "Introduction_To_Computer_Science_-_WEB_p24_paragraph_3"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q18",
+    "question": "Under what condition can a technological fix end up causing more problems than it resolves?",
+    "expected_answer": "Unless the process of applying technology to social and political problems is handled responsibly and with care to select the appropriate technology.",
+    "agent_status": "answered",
+    "agent_answer": "A technological fix can end up causing more problems than it resolves when it is applied without careful consideration of the specific social and political context. This critique emphasizes the need for responsible handling of technological solutions, as blind faith in technology can lead to unintended consequences that exacerbate existing issues rather than alleviate them. Therefore, selecting the appropriate technology for specific problems is crucial to avoid such negative outcomes [41]. [Introduction_To_Computer_Science_-_WEB_p41_paragraph_5]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p41_paragraph_5"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q19",
+    "question": "In Section 2.1 Computational Thinking, what are the three As of computational thinking and what does each phase represent?",
+    "expected_answer": "Abstraction (problem formulation), Automation (expressing the solution), and Analysis (solution execution and evaluation).",
+    "agent_status": "answered",
+    "agent_answer": "The three As of computational thinking are: 1. **Abstraction**: This initial phase involves problem formulation. 2. **Automation**: In this phase, the focus shifts to expressing the solution. 3. **Analysis**: The final phase encompasses solution execution and evaluation. Together, these phases illustrate the power of computational thinking in problem-solving processes. [Introduction_To_Computer_Science_-_WEB_p52_paragraph_2]",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p52_paragraph_2"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q20",
+    "question": "What is the social determination of technology?",
+    "expected_answer": "The belief that technologies are inherently neutral and that the people using technology are the ones who ultimately make it good or bad.",
+    "agent_status": "answered",
+    "agent_answer": "The social determination of technology is the belief that technologies are inherently neutral, and it is the people using technology who ultimately make it 'good' or 'bad.' This perspective suggests that the biases present in technologies, such as AI systems, arise from the social values embedded in the data rather than from the design of the algorithms themselves. Critics argue that the way AI learns from data can encode social values, potentially reproducing existing biases, which raises ethical considerations for computer scientists in their practice of responsible computing [Introduction_To_Computer_Science_-_WEB_p38_paragraph_0][Introduction_To_Computer_Science_-_WEB_p38_paragraph_2].",
+    "citations": [
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_0",
+      "Introduction_To_Computer_Science_-_WEB_p38_paragraph_2"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q23",
+    "question": "What specific fine-tuning hyperparameters (learning rate and batch size) did OpenAI use to train DALL-E according to Chapter 1?",
+    "expected_answer": "Trang 48 chỉ nhắc ngắn gọn tới DALL-E trong phần Labs, không có thông tin về learning rate hay batch size.",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain specific information about the fine-tuning hyperparameters (learning rate and batch size) used by OpenAI to train DALL-E.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "q24",
+    "question": "What are the five cybersecurity governance frameworks compared in Chapter 14 of this textbook?",
+    "expected_answer": "Trang 41 chỉ nhắc tên Chương 14, toàn bộ nội dung Chương 14 không nằm trong corpus (trang 19–52).",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng trong tài liệu để trả lời. (The retrieved passages do not contain specific information about the five cybersecurity governance frameworks compared in Chapter 14.)",
+    "citations": [],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  }
+]
